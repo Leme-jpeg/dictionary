@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header>The Dictionary</header>
+      <main>
+        <Dictionary />
+      </main>
+      <footer>coded by S. Desjardins</footer>
     </div>
   );
 }
