@@ -1,8 +1,16 @@
-.container {
+header,
+.top {
   text-align: center;
 }
 header {
   font-size: 40px;
   font-weight: bold;
   padding: 22px;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
 }
