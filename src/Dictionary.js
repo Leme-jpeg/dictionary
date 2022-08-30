@@ -38,6 +38,7 @@ export default function Dictionary() {
         </form>
         <hr />
       </div>
+
       <Results results={results} />
     </div>
   );
