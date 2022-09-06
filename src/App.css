@@ -13,4 +13,5 @@ li {
 }
 .underline {
   text-decoration: underline;
+  text-transform: uppercase;
 }
