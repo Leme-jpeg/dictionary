@@ -51,14 +51,18 @@ export default function Dictionary(props) {
           <input
             className="search"
             type="search"
+            onChange={handleKeywordChange}
             defaultValue={props.defaultKeyword}
           />
+          <input className="button" type="submit" value="search" />
         </form>
-      </div>
 
-      <Results results={results} />
-    </div>
-  );
+        <Results results={results} />
+        <Photos photos={photos} />
+      </div>
+    );
+  } else {
+    load();
     return "Loading";
   }
 }
