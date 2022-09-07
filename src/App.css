@@ -37,6 +37,7 @@ li {
   border-radius: 6px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 20px 0;
+  text-align: left;
 }
 
 .Dictionary input {
