@@ -47,7 +47,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <container>
+        <div className="container">
           <form onSubmit={handleSubmit}>
             <input
               className="search"
@@ -57,7 +57,7 @@ export default function Dictionary(props) {
             />
             <input className="button" type="submit" value="search" />
           </form>
-        </container>
+        </div>
         <Results results={results} />
         <Photos photos={photos} />
       </div>

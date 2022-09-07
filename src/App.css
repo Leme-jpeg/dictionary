@@ -47,7 +47,7 @@ li {
   font-weight: bolder;
   font-family: "Courier New", Courier, monospace;
 }
-container {
+.container {
   text-align: center;
   width: 80%;
   margin: 0 auto;
