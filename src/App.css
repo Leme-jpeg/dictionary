@@ -21,6 +21,14 @@ header {
   font-weight: bold;
   padding: 22px;
 }
+footer {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
 li {
   list-style: none;
   text-decoration: none;

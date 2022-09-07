@@ -9,7 +9,16 @@ function App() {
       <main>
         <Dictionary defaultKeyword="Dictionary" />
       </main>
-      <footer>coded by S. Desjardins</footer>
+      <footer>
+        {" "}
+        <a
+          href="https://github.com/Leme-jpeg/dictionary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          coded by S. Desjardins
+        </a>
+      </footer>
     </div>
   );
 }
