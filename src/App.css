@@ -3,16 +3,20 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
+.App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 .space {
   padding: 15 px;
 }
 
-header,
 .top {
-  text-align: center;
   margin-bottom: 20px;
 }
 header {
+  text-align: center;
   font-size: 50px;
   font-weight: bold;
   padding: 22px;
@@ -43,7 +47,12 @@ li {
   font-weight: bolder;
   font-family: "Courier New", Courier, monospace;
 }
-
+.button {
+  width: 25%;
+}
+.search {
+  width: 75%;
+}
 .Phonetic {
   margin: 20px 0;
   font-weight: bold;
@@ -68,4 +77,9 @@ li {
 li {
   display: inline-block;
   padding: 5px;
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
 }

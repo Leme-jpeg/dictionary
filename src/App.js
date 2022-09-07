@@ -5,9 +5,9 @@ import Dictionary from "./Dictionary.js";
 function App() {
   return (
     <div className="container">
-      <header >The Dictionary</header>
+      <header>The Dictionary</header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Dictionary" />
       </main>
       <footer>coded by S. Desjardins</footer>
     </div>
